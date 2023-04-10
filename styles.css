@@ -1,0 +1,137 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+@font-face {
+font-family: 'Heavy';
+src: url('font/AwanZaman-Heavy.ttf');
+}
+
+
+body{
+display: flex;
+flex-direction: row;
+justify-content:center;
+align-items: center;
+background-color: rgba(131, 166, 231, 0.548);
+}
+
+.qr_code{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 10vh;
+background-color: #fff;
+padding: 15px;
+border-radius: 15px;
+padding-left:15px ;
+padding-right:15px;
+}
+
+
+.qr_code img{
+width: 240px;
+border-radius: 15px;
+}
+
+
+/*Quando si aggiunge il padding a un'immagine con un bordo arrotondato, il padding viene 
+aggiunto all'interno del bordo. Ciò può causare l'angolazione delle immagini anziché l'arrotondamento. 
+Per mantenere gli angoli arrotondati, puoi provare ad aggiungere il padding a un elemento genitore dell'immagine
+o utilizzare la proprietà CSS `box-sizing: border-box;` sull'elemento immagine.*/
+
+.qr_code .first_p {
+margin-top: 15px;
+text-align: center;
+font-size: 24px;
+font-weight: bold;
+max-width: 220px;
+font-family: 'Heavy';
+color: rgba(0, 0, 0, 0.842);
+}
+
+.qr_code .second_p {
+margin-top: 15px;
+text-align: center;
+font-size: 16px;
+max-width: 200px;
+font-family: 'Heavy';
+color: rgba(0, 0, 0, 0.61);
+font-weight: 100;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:500px) {
+
+
+body{
+display: flex;
+flex-direction: row;
+justify-content:center;
+align-items: center;
+background-color: rgba(131, 166, 231, 0.548);
+}
+
+.qr_code{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 10vh;
+background-color: #fff;
+padding: 15px;
+border-radius: 15px;
+padding-left:15px ;
+padding-right:15px;
+}
+
+
+
+
+.qr_code img{
+width: 290px;
+border-radius: 15px;
+}
+
+
+.qr_code .first_p {
+margin-top: 15px;
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+max-width: 250px;
+font-family: 'Heavy';
+color: rgba(0, 0, 0, 0.842);
+}
+
+.qr_code .second_p {
+margin-top: 15px;
+text-align: center;
+font-size: 22px;
+max-width: 230px;
+font-family: 'Heavy';
+color: rgba(0, 0, 0, 0.61);
+font-weight: 100;
+
+}
+
+
+
+
+}
