@@ -48,20 +48,21 @@ o utilizzare la proprietà CSS `box-sizing: border-box;` sull'elemento immagine.
 .qr_code .first_p {
 margin-top: 15px;
 text-align: center;
-font-size: 27px;
+font-size: 30px;
 font-weight: bold;
-max-width: 220px;
+max-width: 260px;
 font-family: 'Heavy';
 color: rgba(0, 0, 0, 0.842);
+
 }
 
 .qr_code .second_p {
 margin-top: 15px;
 text-align: center;
-font-size: 24px;
-max-width: 200px;
+font-size: 20px;
+max-width: 255px;
 font-family: 'Heavy';
-color: rgba(0, 0, 0, 0.61);
+color: rgba(0, 0, 0, 0.384);
 font-weight: 100;
 
 }
